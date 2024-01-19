@@ -1,0 +1,363 @@
+
+@media only screen and (max-width: 900px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    header #second > ul{
+        display: none;
+      }
+      header #second > button{
+        display: none;
+      }
+    
+      header {
+        padding-left: 6%;
+        padding-right: 6%;
+      }
+
+      header .off-canvas{
+        display: block;
+      } 
+      #hero {
+        padding: 0 6%;
+      }
+
+      #hero .text-wrap {
+        padding-top: 0;
+      }
+
+      #brands ul {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+        column-gap: 31px;
+      }
+
+      #features .text-wrap p {
+        width: 100%;
+      }
+
+      #features .f-list {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+      }
+
+      #funFact .left-image {
+        width: 100%;
+        margin: auto;
+      }
+
+      #funFact .text-wrap h3 {
+        width: 100%;
+      }
+
+      #features-2 .f2-list {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+      }
+
+      #work .text-wrap p {
+        width: 100%;
+      }
+
+      #work .work-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 25px;
+        column-gap: 20px;
+      }
+
+      #register .text-wrap {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 0;
+      }
+
+      #register .text-wrap form{
+        padding: 0 13%;
+      }
+      
+      #register .text-wrap .f-list {
+        justify-items: center;
+      }
+
+      #register .text-wrap .submit {
+        width:90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #register .text-wrap .r-note {
+      text-align: center;
+      }
+
+      #team .text-wrap p {
+        width: 100%;
+      }
+
+      #register .text-wrap h1 {
+        text-align: center;
+      }
+
+      #register .text-wrap p {
+        text-align: center;
+      }
+
+      #team .team-list .team-item .team-card {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #service .s-list {
+        grid-template-columns: repeat(2,1fr);
+      }
+
+      #quote .q-wrap {
+        margin-left: 61px;
+        padding-right: 4px;
+        width: 79%;
+        margin-top: 35px;
+      }
+
+      #quote .quote {
+        margin-top: 28px;
+        padding-right: 0;
+      }
+
+      #video .v-wrap h1 {
+        text-align: center;
+      }
+
+      #video .v-wrap p {
+        color: #858585;
+        text-align: center;
+      }
+      #video .v-wrap .cta-2 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+      }
+
+
+      #info .i-wrap {
+        margin-left: 20px;
+        margin-top: 2%;
+      }
+    
+      #info .image-right {
+        margin: auto;
+        margin-top: 20px;
+      }
+
+
+      #video iframe {
+        margin-left: 0;
+        display: block;
+        margin: auto;
+        width: 100%;
+      }
+      
+      #pricing .text-wrap p {
+        text-align: center;
+      }
+
+      #pricing .p-list {
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 30px;
+      }
+
+      #contact .text-wrap p {
+        width: 100%;
+      }
+    
+      #contact .c-wrap .f-list {
+        grid-template-columns: repeat(1,1fr);
+      }
+    
+      #contact .c-wrap .f-list .f-group input {
+        width: 100%;
+      }
+      #contact .c-wrap .f-list .f-group {
+   
+            width: 32rem;   
+      }
+}
+
+@media only screen and (max-width: 600px) {
+    html,body{
+        overflow-x: hidden;
+    }
+  header #second > ul{
+    display: none;
+  }
+  header #second > button{
+    display: none;
+  }
+
+  header .off-canvas{
+    display: block;
+  } 
+
+
+  header {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+
+  #hero {
+    padding: 0 6%;
+  }
+
+  #hero .text-wrap ul li{
+    padding-right: 0;
+  }
+
+  #brands {
+    padding: 11% 17%;
+  }
+
+  #brands ul{
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+  }
+
+  #features .text-wrap p {
+    width: 93%;
+  }
+
+  #features .f-list {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 35px;
+  }
+
+  #features .f-list .f-item h4 {
+    text-align: center;
+  }
+
+  #funFact .left-image {
+    width: 100%;
+    display: flex;
+   margin: auto;
+  }
+
+  #funFact .text-wrap h3 {
+    width: 100%;
+  }
+
+  #funFact .text-wrap {
+    margin-top: 20px;
+    padding: 0 5%;
+  }
+
+  #funFact .text-wrap p {
+    width: 100%;
+  }
+
+  #features-2 .f2-list {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+
+  #work .text-wrap p {
+    width: 85%;
+  }
+
+  #work .work-wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #register .text-wrap {
+    padding-right: 0;
+  }
+
+  #register .text-wrap .f-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #register .text-wrap .f-list .f-group {
+    margin: auto;
+  }
+
+  #register .text-wrap .submit {
+    width: 81%;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+
+  #register .text-wrap p {
+    text-align: center;
+  }
+
+  #team .text-wrap p {
+    width: 100%;
+  }
+
+  #service .text-wrap p {
+    width: 100%;
+  }
+
+  #service .s-list {
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 20px;
+  }
+
+  #quote .q-wrap {
+    border: none;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #quote .quote {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  #video iframe {
+    width: 100%;
+    height: 250px;
+    margin-left: 0;
+  }
+
+  #info .i-wrap {
+    margin-left: 20px;
+    margin-top: 2%;
+  }
+
+  #info .image-right {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  #pricing .text-wrap p {
+    width: 99%;
+  }
+
+  #pricing .p-list {
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 30px;
+  }
+
+  #contact .text-wrap p {
+    width: 100%;
+  }
+
+  #contact .c-wrap .f-list .f-group{
+    width: 100%;
+  margin: auto;
+  }
+
+  #contact .c-wrap .f-list {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  #contact .c-wrap .f-list .f-group input {
+    width: 100%;
+  }
+
+  footer ul {
+padding-left: 0;
+  }
+}
